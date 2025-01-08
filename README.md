@@ -1,2 +1,2 @@
 # Conect-4-Server
-The repository contains the code necessary to play Connect 4 through a server, dividing the code into the client and server parts.
+The repository contains the code necessary to play Connect 4 through a server, dividing the code into the client and server parts. The server is in charge of managing the games, accepting players, receiving the plays (updating the board and sending information to the players), as well as being in charge of deciding and informing the winners/losers. The client code is responsible for initializing the client-side session, filtering its input and communicating it to the server.
